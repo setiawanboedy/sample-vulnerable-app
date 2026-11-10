@@ -1,0 +1,13 @@
+{
+  "name": "sample-vulnerable-app",
+  "version": "1.0.0",
+  "description": "Target testbed repository for Autonomous Security Auditing Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "nanoid": "3.3.7"
+  }
+}
